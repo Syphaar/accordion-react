@@ -1,3 +1,30 @@
+const data = [
+    {
+        id:1,
+        question: "What is React.js used for?",
+        answer:
+            "React.js is a JavaScript library for building fast and interactive user interfaces, primarily for single-page applications (SPAs)."
+    },
+    {
+        id:2,
+        question: "What is the difference between Tailwind CSS and Bootstrap?",
+        answer:
+            "Tailwind CSS is a utility-first framework that gives you full design control, while Bootstrap provides pre-styled components for faster development."
+    },
+    {
+        id:3,
+        question: "What is the difference between == and === in JavaScript?",
+        answer:
+            "== checks for value equality but allows type conversion, while === checks both value and type, making it stricter and more reliable."
+    },
+    {
+        id:4,
+        question: "Why is website performance important?",
+        answer:
+            "A fast website improves user experience, SEO rankings, and conversion rates while reducing bounce rates."
+    },
+]
+
 import { useState } from "react";
 
 const Faq = () => {
@@ -36,31 +63,5 @@ const Faq = () => {
     )
 }
 
-const data = [
-    {
-        id:1,
-        question: "Question 1",
-        answer:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium perferendis neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi."
-    },
-    {
-        id:2,
-        question: "Question 2",
-        answer:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium perferendis neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi."
-    },
-    {
-        id:3,
-        question: "Question 3",
-        answer:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium perferendis neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi."
-    },
-    {
-        id:4,
-        question: "Question 4",
-        answer:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium perferendis neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi neque, ad eligendi est fugit in id nihil animi."
-    },
-]
 
 export default Faq;
